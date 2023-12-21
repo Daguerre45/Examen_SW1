@@ -7,8 +7,8 @@ const session = require('express-session');
 
 var indexRouter = require('./routes/index');
 var loginRouter = require('./routes/login');
-var restrictedRouter = require('./routes/restricted');
 var chatRouter = require('./routes/chat');
+var restrictedRouter = require('./routes/restricted');
 
 var app = express();
 
